@@ -1,0 +1,78 @@
+/* Styling for About us page background */
+#container-fluid_1{
+    background-image: url(MyPics/About_Us_Background.jpg);
+    background-size: auto;  
+}
+/* Styling for Accessories page background */
+#container-fluid_2{
+    background-image: url(MyPics/Accessories_Background.jpg);
+    background-size: auto;
+}
+/* Styling for Adults page background */
+#container-fluid_3{
+    background-image: url(MyPics/Adults_Background.jpg);
+    background-size: auto;
+}
+/* Styling for Boys page background*/
+#container-fluid_4{
+    background-image: url(MyPics/Boys_Background.jpg);
+    background-size: auto;
+}
+/* Styling for Contacts page background*/
+#container-fluid_5{
+    background-image: url(MyPics/Contact_Us_background.png);
+    background-size: auto;
+}
+/* Styling for Feedback page background*/
+#container-fluid_6{
+    background-image: url(MyPics/Feedback_Background.jpg);
+    background-size: auto;
+}
+/* Styling for Girls page background*/
+#container-fluid_7{
+    background-image: url(MyPics/Girls_Background.jpg);
+    background-size: auto;
+}
+/* Styling for New Borns page background */
+#container-fluid_8{
+    background-image: url(MyPics/New_Born_Background.png);
+    background-size: auto;
+}
+/* Styling to minimize cards when you hover over them */
+.card:hover{
+    transform: scale(1.2);
+}
+/* Styling for form buttons */
+.But{
+    margin-left: 300px;
+    padding: 20px;
+    border-radius: 15px;
+}
+/* Navbar styling */
+.bar{
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+    color: rgb(20, 3, 253);}
+   .bar:after{
+      content:"";
+      position: absolute;
+      background-color: rgb(20, 3, 253);
+      height: 4px;
+      width: 0;
+      left: 0;
+      bottom: -10px;
+      transition: 0.3s;}
+  .bar:hover:after{width:100%;}
+  .bar:hover{color: white;}
+/* Footer styling */
+h5{
+    color: white;
+}
+span{
+    color: white;
+}
+.all{
+    padding-left: 30px;
+}
